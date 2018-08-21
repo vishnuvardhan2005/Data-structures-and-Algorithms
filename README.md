@@ -2,4 +2,4 @@
 
 [Insertion sort](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/Sorting/insertionSort.cpp)
 
-[Maximum Continous Sum](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/Array/MaxSumSubArray.cpp)
+[Maximum Continuous Sum](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/Array/MaxSumSubArray.cpp)
