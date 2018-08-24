@@ -5,3 +5,5 @@
 [Maximum Continuous Sum](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/Array/MaxSumSubArray.cpp)
 
 [Subset Sum](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/Array/SubsetSum.cpp)
+
+[Sort 0 1 2](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/Array/Sort012Array.cpp)
