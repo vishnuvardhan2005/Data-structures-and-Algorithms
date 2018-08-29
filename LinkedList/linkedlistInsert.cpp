@@ -12,16 +12,16 @@ struct listNode
 	}
 };
 
-listNode* insert(listNode* root, int data)
+void insert(listNode** head, int data)
 {
 	// inserts data in the beg
-	listNode* sr = new listNode(data, root);
-	return sr;
+	listNode* sr = new listNode(data, *head);
+	*head = sr;
 }
 
-void print(listNode* root)
+void print(listNode* head)
 {
-	listNode* sr = root;
+	listNode* sr = head;
 	while(sr!=NULL)
 	{
 		cout << sr->data << " ";
@@ -30,30 +30,30 @@ void print(listNode* root)
 	cout << endl;
 }
 
-void destroy(listNode* root)
+void destroy(listNode* head)
 {
-	listNode* sr = root;
+	listNode* sr = head;
 	while(sr!=NULL)
 	{
-		root = root->next;
+		head = head->next;
 		delete sr;
-		sr = root;
+		sr = head;
 	}
 }
 
 int main()
 {
-	listNode* root =  NULL;
+	listNode* head =  NULL;
 	
-	root = insert(root, 10);
-	root = insert(root, 1);
-	root = insert(root, 20);
-	root = insert(root, 3);
-	root = insert(root, 5);
+	insert(&head, 10);
+	insert(&head, 1);
+	insert(&head, 20);
+	insert(&head, 3);
+	insert(&head, 5);
 	
-	print(root);
+	print(head);
 	
-	destroy(root);
+	destroy(head);
 	
 	return 0;
 }
