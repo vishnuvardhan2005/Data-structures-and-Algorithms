@@ -16,3 +16,6 @@
 
 [Linked list deletion](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/LinkedList/linkedlistDeletion.cpp)
 
+## Trees
+[Simple rotation] (https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/Trees/Rotations.cpp)
+
