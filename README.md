@@ -19,3 +19,5 @@
 ## Trees
 [Simple rotation](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/Trees/Rotations.cpp)
 
+[BST insert](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/Trees/tree_insert.cpp)
+
