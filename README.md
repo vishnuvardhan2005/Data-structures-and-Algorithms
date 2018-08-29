@@ -14,3 +14,5 @@
 ## Linked list
 [Linked list insertion](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/LinkedList/linkedlistInsert.cpp)
 
+[Linked list deletion](https://github.com/vishnuvardhan2005/Data-structures-and-Algorithms/blob/master/LinkedList/linkedlistDeletion.cpp)
+
